@@ -1,0 +1,424 @@
+*{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'KozGoPro';
+}
+h1,h2,h3 {
+	font-family: 'KozGoPro';
+}
+a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'KozGoPro';
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #ff2513;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+body {
+	width: 100%;
+	min-height: 100%;
+	overflow-x:hidden;
+	background-color: #262628;
+}
+
+
+
+     /* =========== */
+/* =+===== HEADER ======= */
+     /* =========== */
+header {
+	width: 100%;
+	position: relative;
+
+}
+.bannerWrap {
+	width: 100%;
+	height: 475px;
+	overflow:hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.banner {
+	width: 100%;
+	height: 100%;
+}
+.banner>img, .banner>.video, .banner>iframe {
+	width: 100%;
+	height: auto;
+}
+.banner>img {
+	min-width: 1920px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 0;
+}
+header nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-image: url(../img/bcg-header.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	height: 150px;
+	z-index: 3;
+}
+.logoWrap {
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+.logoWrap img{
+	width: 100%;
+	height: auto;
+	margin: auto 0;
+
+}
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 55px;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.navigation>li {
+	margin-left: 25px;
+}
+.navigation>li:first-child {
+	margin-left: 0;
+}
+.navigation>li>a {
+	font-size: 13px;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+.shield {
+	width: 100%;
+	background-image: url(../img/header-5shield-icon.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 30%;
+	height: 85px;
+}
+/* =+===== END HEADER ======= */
+
+
+     /* =========== */
+/* =+===== CONTENT ======= */
+     /* =========== */
+.main {
+	position: relative;
+	top: -90px;
+	z-index: 1;
+	background-image: url(../img/bcg-main.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	padding-top: 90px;
+}
+/* ВЫБОР МОЩНОСТИ ДВИГАТЕЛЯ / Engine power choice */
+.engineLink {
+	width: 100%;
+	height: 470px;
+	position: relative;
+}
+.engineLink:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/bcg-bottom-fire.png);
+}
+section>.container {
+	position: relative;
+	height: 100%;
+}
+section>.container>.row{
+	height: 100%;
+}
+.main h2 {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+	z-index: 6;
+	margin: 0;
+}
+.main h2:before {
+	content: '';
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/fire.png);
+	width: 185px;
+	height: 40px;
+	display: inline-block;
+	margin-bottom: -14px;
+	margin-right: 5px;
+}
+.engineLink_wrap {
+	position: relative; 
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.engineLink_block {
+	position: relative;
+	width: 25%;
+	min-width: 250px;
+	height: 100%;
+}
+.engineLink_block:nth-child(2) {
+	margin-left: 20%;
+}
+.engineLink_block>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s linear;
+}
+.engineLink_block>a.hp24 {
+	background-image: url(../img/engine24-inactive.png);
+}
+.engineLink_block>a.hp50 {
+	background-image: url(../img/engine50-inactive.png);
+}
+.engineLink_block>a.hp24:hover {
+	background-image: url(../img/engine24-active.png);
+}
+.engineLink_block>a.hp50:hover {
+	background-image: url(../img/engine50-active.png);
+}
+.engineLink_block>.title {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	width: 200px;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.engineLink_block>.title>h3 {
+	margin: 0;
+	font-size: 28px;
+	font-weight: 400;
+	color:#fff;
+	font-family: 'Lato';
+}
+.engineLink_block>.title>.icon {
+	display: block;
+	width: 45px;
+	height: 37px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/link-square-inactive.png);
+	transition: all 0.2s linear;
+}
+.engineLink_block:hover>.title>.icon {
+	background-image: url(../img/link-square-active.png);
+}
+
+/* О ДВИГАТЕЛЕ / About engine */
+.aboutEngine{
+	width: 100%;
+}
+.aboutEngine_wrap {
+	position: relative;
+	width: 780px;
+	height: 470px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/bcg-aboutEngine.png);
+	margin-top: 85px;
+	margin-bottom: 25px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 20px;
+}
+.aboutEngine_wrap article {
+	width: 180px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.aboutEngine_wrap article>p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	margin: 0;
+	text-align: left;
+}
+.aboutEngine_wrap article>p:first-child {
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.aboutEngine_list {
+	padding: 0;
+	list-style: none;
+	width: 145px;
+	height: calc(100% - 70px);
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.aboutEngine_list>li {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	padding-bottom: 2px;
+	border-bottom: 2px solid transparent;
+}
+.aboutEngine_list>li:before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -2px;
+	right: 145px;
+	height: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-image: url(../img/aboutEngine-figure.png);
+	pointer-events: none;
+	border-bottom: 2px solid #ed2010;
+	display: none;
+}
+.aboutEngine_list>li#part1:before {
+	width: 232px;
+    transform: rotateZ(-192deg);
+    bottom: -26px;
+    right: 141px;
+}
+.aboutEngine_list>li#part2:before {
+	width: 122px;
+	bottom: -8px;
+	right: 143px;
+	transform:rotateZ(-186deg);
+}
+.aboutEngine_list>li#part3:before {
+	width: 265px;
+    transform: rotateZ(-160deg);
+    bottom: 43px;
+    right: 136px;
+}
+.aboutEngine_list>li#part4:before {
+	width: 230px;
+    transform: rotateZ(-162deg);
+    bottom: 33px;
+    right: 138px;
+}
+.aboutEngine_list>li#part5:before {
+	width: 210px;
+    transform: rotateZ(-153deg);
+    right: 133px;
+    bottom: 45px;
+}
+.aboutEngine_list>li#part6:before {
+	width: 308px;
+    transform: rotateZ(-162deg);
+    right: 135px;
+    bottom: 45px;
+}
+.aboutEngine_list>li#part1.hover:before {
+	display: block;
+}
+.aboutEngine_list>li#part2.hover:before {
+	display: block;
+}
+.aboutEngine_list>li#part3.hover:before {
+	display: block;
+}
+.aboutEngine_list>li#part4.hover:before {
+	display: block;
+}
+.aboutEngine_list>li#part5.hover:before {
+	display: block;
+}
+.aboutEngine_list>li#part6.hover:before {
+	display: block;
+}
+.aboutEngine_list>li:hover {
+	color: #dd161c;
+	border-bottom: 2px solid #ed2010;
+}
+.aboutEngine_list>li:hover:before {
+	display: block;
+}
+.aboutEngine_wrap .point {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #ed2010;
+	color: #ed2010;
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	position: absolute;
+	background-color: #fff;
+	font-family: 'KozGoPro';
+	cursor: pointer;
+}
+.aboutEngine_wrap #point1 {
+	top: 115px;
+	left: 370px;
+}
+.aboutEngine_wrap #point2 {
+	top: 140px;
+	left: 465px;
+}
+.aboutEngine_wrap #point3 {
+	top: 80px;
+	left: 340px;
+}
+.aboutEngine_wrap #point4 {
+	top: 180px;
+	left: 370px;
+}
+.aboutEngine_wrap #point5 {
+	top: 250px;
+	left: 400px;
+}
+.aboutEngine_wrap #point6 {
+	top: 305px;
+	left: 295px;
+}
+.aboutEngine_wrap .point:hover {
+	background-color: #dd161c;
+	color:#fff;
+}

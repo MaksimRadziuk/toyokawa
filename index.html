@@ -14,9 +14,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/slick/slick.css">
 	<link rel="stylesheet" href="libs/slick/slick-theme.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
 	
 	<link rel="stylesheet" href="css/main.css">
 
@@ -24,6 +25,104 @@
 </head>
 
 <body>
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<nav>
+					<div class="container">
+						<div class="row">
+							<div class="col-2">
+								<div class="logoWrap">
+									<img src="img/logo-toyokawa.png" alt="">
+								</div>
+							</div>
+							<div class="col-7">
+								<ul class="navigation">
+									<li><a href="#">エンジンカタログ</a></li>
+									<li><a href="#">パートナー</a></li>
+									<li><a href="#">歴史</a></li>
+									<li><a href="#">排出管理</a></li>
+									<li><a href="#">パーツ</a></li>
+									<li><a href="#">お問い合わせ</a></li>
+								</ul>
+							</div>
+							<div class="col-3">
+								<div class="shield"></div>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<div class="bannerWrap">
+					<div class="banner">
+						<img src="img/banner-main.png" alt="pic">
+					</div>
+				</div>
+			</div>	
+		</div>
+	</header>
+
+	<div class="container-fluid main">
+		<div class="row">
+			
+<!-- ВЫБОР МОЩНОСТИ ДВИГАТЕЛЯ / Engine power choice -->
+				
+				<section class="engineLink">
+					<div class="container">
+						<div class="row">
+							<h2>製品|</h2>
+							<div class="engineLink_wrap">
+								<div class="engineLink_block">
+									<a href="#" class="hp24"></a>
+									<div class="title">
+										<h3>6〜24 hp</h3>
+										<span class="icon"></span>
+									</div>
+								</div>
+								<div class="engineLink_block">
+									<a href="#" class="hp50"></a>
+									<div class="title">
+										<h3>50〜523 hp</h3>
+										<span class="icon"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+<!-- О ДВИГАТЕЛЕ / About engine -->
+				<section class="aboutEngine">
+					<div class="container">
+						<div class="row">
+							<h2>利点</h2>
+							<div class="aboutEngine_wrap">
+								<article>
+									<p>エンジン技術<br>将来。</p>
+									<p>高度な技術、長年の経験と幅広い製品ラインナップにより、建設機械、農業機械、マテリアルハンドリング、固定システム、商用車、鉄道車、特殊車など、さまざまな分野での使用に適しています。 高品質、高信頼性、長寿命は豊川ブランドの重要な価値のひとつです。</p>
+								</article>
+								<ul class="aboutEngine_list">
+									<li class="part" id="part1">1. 改善された形状のシリンダ出口弁</li>
+									<li class="part" id="part2">2. 高容量燃料インジェクタ</li>
+									<li class="part" id="part3">3. 増加した容量を有する合金鋼の入口弁</li>
+									<li class="part" id="part4">4. マルチステージアンダーキャリッジ付きピストンシステム</li>
+									<li class="part" id="part5">5. ピストンシャフトの機械的運動のシステムはより剛性の高いモデルを有する</li>
+									<li class="part" id="part6">6. 燃料液の流れと入口の制御</li>
+								</ul>
+								<div class="point" id="point1">1</div>
+								<div class="point" id="point2">2</div>
+								<div class="point" id="point3">3</div>
+								<div class="point" id="point4">4</div>
+								<div class="point" id="point5">5</div>
+								<div class="point" id="point6">6</div>
+							</div>
+						</div>
+					</div>
+				</section>
+<!-- СЛАЙДЕР / Slider -->
+				<section class="proud"></section>
+			
+		</div>
+	</div>
 
 
 
@@ -35,6 +134,7 @@
 <![endif]-->
 
 <script src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="libs/slick/slick.js"></script>
 <script src="js/common.js"></script>
 </body>
