@@ -202,16 +202,18 @@ section>.container>.row{
 	transition: all 0.2s linear;
 }
 .engineLink_block>a.hp24 {
-	background-image: url(../img/engine24-inactive.png);
+	background-image: url(../img/engine24-active.png);
+	filter: saturate(0%);
 }
 .engineLink_block>a.hp50 {
-	background-image: url(../img/engine50-inactive.png);
+	background-image: url(../img/engine50-active.png);
+	filter: saturate(0%);
 }
 .engineLink_block>a.hp24:hover {
-	background-image: url(../img/engine24-active.png);
+	filter: saturate(100%);
 }
 .engineLink_block>a.hp50:hover {
-	background-image: url(../img/engine50-active.png);
+	filter: saturate(100%);
 }
 .engineLink_block>.title {
 	display: flex;
