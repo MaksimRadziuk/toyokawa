@@ -110,6 +110,12 @@ $(document).ready(function(){
           settings: {
             centerPadding:"100px"
           }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            centerPadding:"80px"
+          }
         }
 
       ]

@@ -3,117 +3,172 @@
 
 
 @font-face {
-    font-family: '';
-    src: url('KozGoPro-Light-AlphaNum.woff2') format('woff2'),
-        url('KozGoPro-Light-AlphaNum.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+    font-family: 'KozGoPro-Light';
+    
+src: url('KozGoPro-Light-AlphaNum.woff2') format('woff2'),
+        
+url('KozGoPro-Light-AlphaNum.woff') format('woff'),
+url('KozGoPr6N-Light.otf') format('opentype');
+    
+font-weight: 300;
+    
+font-style: normal;
 }
 
 
 
 @font-face {
-    font-family: '';
-    src: url('KozGoPro-ExtraLight-AlphaNum.woff2') format('woff2'),
-        url('KozGoPro-ExtraLight-AlphaNum.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
+    font-family: 'KozGoPro-ExtraLight';
+    
+src: url('KozGoPro-ExtraLight-AlphaNum.woff2') format('woff2'),
+        
+url('KozGoPro-ExtraLight-AlphaNum.woff') format('woff'),
+url('KozGoPr6N-ExtraLight.otf') format('opentype');
+    
+font-weight: 200;
+    
+font-style: normal;
 }
 
 
 
 @font-face {
-    font-family: '';
-    src: url('KozMinPro-Heavy-AlphaNum.woff2') format('woff2'),
-        url('KozMinPro-Heavy-AlphaNum.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
+    font-family: 'KozMinPro-Heavy';
+    
+src: url('KozMinPro-Heavy-AlphaNum.woff2') format('woff2'),
+        
+url('KozMinPro-Heavy-AlphaNum.woff') format('woff');
+    
+font-weight: 900;
+    
+font-style: normal;
 }
 
 
 
 @font-face {
-    font-family: '';
-    src: url('KozMinPro-Medium-AlphaNum.woff2') format('woff2'),
-        url('KozMinPro-Medium-AlphaNum.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+    font-family: 'KozMinPro-Medium';
+    
+src: url('KozMinPro-Medium-AlphaNum.woff2') format('woff2'),
+        
+url('KozMinPro-Medium-AlphaNum.woff') format('woff');
+    
+font-weight: 500;
+    
+font-style: normal;
 }
 
 
 
 @font-face {
-    font-family: '';
-    src: url('KozGoPro-Heavy-AlphaNum.woff2') format('woff2'),
-        url('KozGoPro-Heavy-AlphaNum.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
+    font-family: 'KozGoPro-Heavy';
+    
+src: url('KozGoPro-Heavy-AlphaNum.woff2') format('woff2'),
+        
+url('KozGoPro-Heavy-AlphaNum.woff') format('woff');
+    
+font-weight: 900;
+    
+font-style: normal;
 }
 
 
 
 @font-face {
-    font-family: '';
-    src: url('KozMinPro-Bold-AlphaNum.woff2') format('woff2'),
-        url('KozMinPro-Bold-AlphaNum.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+    font-family: 'KozMinPro-Bold';
+    
+src: url('KozMinPro-Bold-AlphaNum.woff2') format('woff2'),
+        
+url('KozMinPro-Bold-AlphaNum.woff') format('woff');
+    
+font-weight: bold;
+    
+font-style: normal;
 }
 
 
 
 @font-face {
-    font-family: '';
-    src: url('KozMinPro-Light-AlphaNum.woff2') format('woff2'),
-        url('KozMinPro-Light-AlphaNum.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+    font-family: 'KozMinPro-Light';
+    
+src: url('KozMinPro-Light-AlphaNum.woff2') format('woff2'),
+        
+url('KozMinPro-Light-AlphaNum.woff') format('woff'),
+url('KozMinPro-Light.otf') format('opentype');
+    
+font-weight: 300;
+    
+font-style: normal;
 }
 
 
 
 @font-face {
     font-family: 'KozGoPro-Regular';
-    src: url('KozGoPro-Regular-AlphaNum.woff2') format('woff2'),
-        url('KozGoPro-Regular-AlphaNum.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    
+src: url('KozGoPro-Regular-AlphaNum.woff2') format('woff2'),
+        
+url('KozGoPro-Regular-AlphaNum.woff') format('woff'),
+url('KozGoPro-Regular.otf') format('opentype');
+    
+font-weight: normal;
+   
+font-style: normal;
 }
 
 
 
 @font-face {
-    font-family: '';
-    src: url('KozMinPro-ExtraLight-AlphaNum.woff2') format('woff2'),
-        url('KozMinPro-ExtraLight-AlphaNum.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
+    font-family: 'KozMinPro-ExtraLight';
+    
+src: url('KozMinPro-ExtraLight-AlphaNum.woff2') format('woff2'),
+        
+url('KozMinPro-ExtraLight-AlphaNum.woff') format('woff');
+    
+font-weight: 200;
+    
+font-style: normal;
 }
 
 
 
 @font-face {
-    font-family: '';
-    src: url('KozMinPro-Regular-AlphaNum.woff2') format('woff2'),
-        url('KozMinPro-Regular-AlphaNum.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: '';
-    src: url('KozGoPro-Bold-AlphaNum.woff2') format('woff2'),
-        url('KozGoPro-Bold-AlphaNum.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+    font-family: 'KozMinPro-Regular';
+    
+src: url('KozMinPro-Regular-AlphaNum.woff2') format('woff2'),
+        
+url('KozMinPro-Regular-AlphaNum.woff') format('woff');
+    
+font-weight: normal;
+    
+font-style: normal;
 }
 
 
 
 @font-face {
-    font-family: '';
-    src: url('KozGoPro-Medium-AlphaNum.woff2') format('woff2'),
-        url('KozGoPro-Medium-AlphaNum.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+    font-family: 'KozGoPro-Bold';
+    
+src: url('KozGoPro-Bold-AlphaNum.woff2') format('woff2'),
+        
+url('KozGoPro-Bold-AlphaNum.woff') format('woff'),
+url('KozGoPro-Bold.otf') format('opentype');
+    
+font-weight: bold;
+    
+font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'KozGoPro-Medium';
+    
+src: url('KozGoPro-Medium-AlphaNum.woff2') format('woff2'),
+        
+url('KozGoPro-Medium-AlphaNum.woff') format('woff');
+    
+font-weight: 500;
+    
+font-style: normal;
 }

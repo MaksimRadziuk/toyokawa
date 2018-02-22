@@ -1,8 +1,5 @@
-*{
-	font-size: 15px;
-	font-weight: 400;
-	font-family: 'KozGoPro-Regular';
-	color: #fff;
+* {
+	color:#fff;
 }
 h1,h2,h3 {
 	font-family: 'KozGoPro-Regular';
@@ -23,9 +20,13 @@ ul {
 }
 body {
 	width: 100%;
-	min-height: 100%;
 	overflow-x:hidden;
 	background-color: #262628;
+	max-width: 1920px;
+	min-width: 1024px;
+}
+.container {
+	min-width: 1024px;
 }
 
 
@@ -225,35 +226,3 @@ footer td.leftCol {
 	width: 100%;
 }
 /* =+===== END FOOTER ======= */
-
-@media all and (max-width: 991px){
-	.navigation>li>a{
-		font-size: 8px;
-	}
-	.shield {
-		height: 50px;
-		background-position: left bottom;
-	}
-	footer>.container:before {
-		width: 250px;
-		height: 150px;
-	}
-	.logoWrap img {
-		width: 120%;
-	}
-}
-@media all and (max-width: 767px) {
-	nav>.container {
-		width: 100%;
-		max-width: 100%;
-	}
-	footer>.container {
-		width: 98%;
-		max-width: 100%;
-	}
-}
-@media all and (max-width: 575px) {
-	.col-xs-hidden {
-		display: none;
-	}
-}
