@@ -172,3 +172,13 @@ font-weight: 500;
     
 font-style: normal;
 }
+
+@font-face {
+    font-family: nikomoji;
+    
+src: url('nicomoji-plus_1.11.ttf') format('truetype');
+    
+font-weight: normal;
+    
+font-style: normal;
+}
