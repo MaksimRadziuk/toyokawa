@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  new WOW().init();
 
 /*HOVER EFFECT IN aboutEngine main*/
     $('#point1').hover(
@@ -121,4 +122,11 @@ $(document).ready(function(){
       ]
     });
 
+
+
+
 });
+
+
+
+

@@ -1,5 +1,6 @@
 * {
 	color:#fff;
+	transition: all 1s linear;
 }
 h1,h2,h3 {
 	font-family: 'KozGoPro-Regular';
@@ -37,7 +38,21 @@ body {
 header {
 	width: 100%;
 	position: relative;
-
+	background-color: #202020;
+}
+header:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-image: url(../img/bcg-bottom-header.png);
+	background-size: 100%;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	z-index: 1;
 }
 .bannerWrap {
 	width: 100%;
@@ -62,6 +77,17 @@ header {
 	-webkit-transform: translateX(-50%);
 	        transform: translateX(-50%);
 	z-index: 0;
+}
+.slogan{
+	display: none;
+	position: absolute;
+	bottom: 50%;
+	left: 26%;
+	transform: translateY(70%);
+	font-size: 28px;
+}
+.slogan p {
+	margin: 0;
 }
 header nav {
 	position: absolute;
@@ -124,6 +150,16 @@ header nav {
 	height: 85px;
 }
 /* =+===== END HEADER ======= */
+
+
+section>.container {
+	position: relative;
+	height: 100%;
+}
+section>.container>.row{
+	height: 100%;
+}
+
 
 
      /* =========== */
@@ -226,3 +262,25 @@ footer td.leftCol {
 	width: 100%;
 }
 /* =+===== END FOOTER ======= */
+@media all and (max-width: 1680px) {
+	.slogan{
+		left: 22%;
+	}
+}
+@media all and (max-width: 1440px) {
+	.slogan{
+		left: 17%;
+	}
+}
+@media all and (max-width: 1280px) {
+	.slogan{
+		left: 12%;
+	}
+}
+@media all and (max-width: 1024px) {
+	.slogan{
+		left: 80px;
+	}
+}
+
+
