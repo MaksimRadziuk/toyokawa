@@ -103,7 +103,7 @@ $(document).ready(function(){
         {
           breakpoint: 1025,
           settings: {
-            centerPadding:"130px"
+            centerPadding:"150px"
           }
         },
         {
