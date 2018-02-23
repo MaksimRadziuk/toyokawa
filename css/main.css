@@ -383,7 +383,7 @@ section>.container>.row{
 	        justify-content: flex-start;
 	position: relative;
 	margin-left: 185px;
-	opacity: .6;
+	opacity: .3;
 }
 .proud_block.transparent {
 	opacity: 0;
@@ -434,6 +434,7 @@ section>.container>.row{
 	background-position: center;
 	border:none;
 	background-color: transparent;
+	z-index: 10;
 }
 .proud .slick-prev:before, .proud .slick-next:before {
 	display: none;
@@ -448,10 +449,11 @@ section>.container>.row{
 	background-image: url(../img/next-arrow.png);
 }
 .proud .slick-disabled {
-	opacity: .5;
+	opacity: .3;
 }
 .proud .slick-center.slick-current {
 	opacity: 1;
+	height: 220px;
 }
 .proud .slick-center.slick-current>.divider {
 	-webkit-filter:saturate(100%);
@@ -459,6 +461,9 @@ section>.container>.row{
 }
 
 @media all and (max-height: 700px) {
+	.proud .slick-vertical .slick-slide.slick-center.slick-current {
+		height: 160px;
+	}
 	.proud .slick-vertical .slick-slide {
 		height: 160px;
 	}
@@ -477,6 +482,9 @@ section>.container>.row{
 	}
 }
 @media all and (max-height: 600px) {
+	.proud .slick-vertical .slick-slide.slick-center.slick-current {
+		height: 125px;
+	}
 	.proud .slick-vertical .slick-slide {
 		height: 125px;
 	}
@@ -490,6 +498,9 @@ section>.container>.row{
 	}
 }
 @media all and (max-width: 1024px) {
+	.proud .slick-vertical .slick-slide.slick-center.slick-current {
+		height: 150px;
+	}
 	.proud .slick-vertical .slick-slide {
 		height: 150px;
 	}
