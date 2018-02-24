@@ -85,29 +85,18 @@ $(document).ready(function(){
 
 /*SLIDER SETTINGS*/
     $('.proud_wrap').slick({
+      vertical:true,
       centerMode: true,
-      slidesToShow: 1,
+      slidesToShow: 3,
       slidesToScroll:1,
       arrows: true,
       infinite:false,
-      vertical:true,
-      centerPadding:"220px",
-      initialSlide:1,
-      responsive: [
-        {
-          breakpoint: 1370,
-          settings: {
-            centerPadding:"180px"
-          }
-        },
-        {
-          breakpoint: 1025,
-          settings: {
-            centerPadding:"150px"
-          }
-        }
-
-      ]
+      centerPadding:"0px",
+      draggable:true,
+      verticalSwiping: true,
+      focusOnSelect:true,
+      respondTo:'slider',
+      touchMove:true
     });
 
 

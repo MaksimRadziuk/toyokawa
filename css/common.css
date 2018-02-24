@@ -11,6 +11,7 @@ a {
 	font-weight: 400;
 	font-family: 'KozGoPro-Regular';
 	text-decoration: none;
+	transition: all .2s linear;
 }
 a:hover, a:focus {
 	color: #ff2513;
@@ -66,28 +67,25 @@ header:before {
 	width: 100%;
 	height: 100%;
 }
-.banner>img, .banner>.video, .banner>iframe {
-	width: 100%;
-	height: auto;
+.banner>.video, .banner>iframe {
+	width: auto;
+	height: 100%;
 }
 .banner>img {
 	min-width: 1920px;
+	height:100%;
 	position: relative;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	        transform: translateX(-50%);
 	z-index: 0;
 }
-.slogan{
+.header_title{
 	display: none;
 	position: absolute;
-	bottom: 50%;
-	left: 26%;
-	transform: translateY(70%);
+	bottom: 170px;
+	left: 25%;
 	font-size: 28px;
-}
-.slogan p {
-	margin: 0;
 }
 header nav {
 	position: absolute;
@@ -101,20 +99,24 @@ header nav {
 	height: 150px;
 	z-index: 3;
 }
-.logoWrap {
-	height: 60px;
-	display: -webkit-box;
-	display: -ms-flexbox;
+nav .row {
 	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
-.logoWrap img{
+.logoWrap {
+	width: 200px;
+	height: 60px;
+	margin-left: 50px;
+}
+.logoWrap>a{
+	display: block;
 	width: 100%;
-	height: auto;
-	margin: auto 0;
-
+	height: 100%;
+	background-image: url(../img/logo-toyokawa.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .navigation {
 	display: -webkit-box;
@@ -123,31 +125,26 @@ header nav {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	-webkit-box-pack: start;
-	    -ms-flex-pack: start;
-	        justify-content: flex-start;
-	height: 55px;
+	        justify-content: space-around;
+	height: 60px;
+	width: 590px;
 	padding-left: 0;
 	margin-bottom: 0;
-}
-.navigation>li {
 	margin-left: 25px;
 }
-.navigation>li:first-child {
-	margin-left: 0;
-}
 .navigation>li>a {
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 200;
 	letter-spacing: 1px;
 }
 .shield {
-	width: 100%;
+	width: 90px;
 	background-image: url(../img/header-5shield-icon.png);
 	background-repeat: no-repeat;
-	background-position: center bottom;
-	background-size: 30%;
-	height: 85px;
+	background-position: center;
+	background-size: cover;
+	height: 90px;
+	margin-left: 100px;
 }
 /* =+===== END HEADER ======= */
 
@@ -271,15 +268,27 @@ footer td.leftCol {
 	.slogan{
 		left: 17%;
 	}
+	footer>.container:before {
+		right: 0;
+	}
 }
 @media all and (max-width: 1280px) {
 	.slogan{
 		left: 12%;
 	}
 }
+@media all and (max-width: 1199px) {
+	.shield {
+		margin-left: 40px;
+	}
+
+}
 @media all and (max-width: 1024px) {
 	.slogan{
 		left: 80px;
+	}
+	body {
+		overflow-x: scroll;
 	}
 }
 
