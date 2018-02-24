@@ -42,6 +42,7 @@ header:before {
 	display: inline-block;
 	margin-bottom: -14px;
 	margin-right: 5px;
+	-webkit-transition: all 1s linear;
 	transition: all 1s linear;
 	visibility: hidden;
 }
@@ -55,9 +56,15 @@ header:before {
 	margin-top:70px;
 }
 .company_emission {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 }
 .company_emission>article {
 	width: 500px;
@@ -86,9 +93,15 @@ header:before {
 }
 .components>.components_wrap {
 	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .components>.components_wrap>.components_block {
 	width: 310px;
@@ -121,6 +134,8 @@ header:before {
 }
 .clearing>article {
 	width: 100%;
-	column-count:2;
-	column-gap: 70px;
+	-webkit-column-count:2;
+	        column-count:2;
+	-webkit-column-gap: 70px;
+	        column-gap: 70px;
 }

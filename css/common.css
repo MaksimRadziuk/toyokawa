@@ -1,5 +1,6 @@
 * {
 	color:#fff;
+	-webkit-transition: all 1s linear;
 	transition: all 1s linear;
 }
 h1,h2,h3 {
@@ -11,6 +12,7 @@ a {
 	font-weight: 400;
 	font-family: 'KozGoPro-Regular';
 	text-decoration: none;
+	-webkit-transition: all .2s linear;
 	transition: all .2s linear;
 }
 a:hover, a:focus {
@@ -100,9 +102,15 @@ header nav {
 	z-index: 3;
 }
 nav .row {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 }
 .logoWrap {
 	width: 200px;
@@ -125,7 +133,8 @@ nav .row {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	        justify-content: space-around;
+	        -ms-flex-pack: distribute;
+	            justify-content: space-around;
 	height: 60px;
 	width: 590px;
 	padding-left: 0;

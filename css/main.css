@@ -55,6 +55,7 @@ section>.container>.row{
 	display: inline-block;
 	margin-bottom: -14px;
 	margin-right: 5px;
+	-webkit-transition: all 1s linear;
 	transition: all 1s linear;
 }
 .engineLink_wrap {
@@ -80,6 +81,7 @@ section>.container>.row{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	-webkit-transition: none;
 	transition: none;
 	background-image: url(../img/engine24-inactive.png);
 }
@@ -97,6 +99,7 @@ section>.container>.row{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	-webkit-transition: none;
 	transition: none;
 	opacity: 0;
 }
@@ -220,6 +223,7 @@ section>.container>.row{
 	position: relative;
 	padding-bottom: 2px;
 	border-bottom: 2px solid transparent;
+	-webkit-transition: none;
 	transition: none;
 }
 .aboutEngine_list>li:before {
@@ -317,6 +321,7 @@ section>.container>.row{
 	position: absolute;
 	background-color: #fff;
 	cursor: pointer;
+	-webkit-transition: none;
 	transition: none;
 }
 .aboutEngine_wrap #point1 {
@@ -473,15 +478,12 @@ section>.container>.row{
       /* Center slide text vertically */
       display: -webkit-box;
       display: -ms-flexbox;
-      display: -webkit-flex;
       display: flex;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
-      -webkit-justify-content: center;
       justify-content: center;
       -webkit-box-align: center;
       -ms-flex-align: center;
-      -webkit-align-items: center;
       align-items: center;
     }
 
