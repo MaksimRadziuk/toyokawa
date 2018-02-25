@@ -2,18 +2,12 @@
      /* =========== */
 /* =+===== CONTENT ======= */
      /* =========== */
-.main {
-	position: relative;
-	background-image: url(../img/bcg-main.png);
-	background-repeat: no-repeat;
-	background-position: top;
-	background-size: 100% 100%;
-}
 /* ВЫБОР МОЩНОСТИ ДВИГАТЕЛЯ / Engine power choice */
 .engineLink {
 	width: 100%;
 	height: 470px;
 	position: relative;
+	padding-top: 40px;
 }
 .engineLink:before {
 	content: '';
@@ -24,16 +18,9 @@
 	left: 0;
 	bottom: 0;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: bottom center;
 	background-size: 100%;
 	background-image: url(../img/bcg-bottom-fire.png);
-}
-section>.container {
-	position: relative;
-	height: 100%;
-}
-section>.container>.row{
-	height: 100%;
 }
 .main h2 {
 	position: absolute;
@@ -76,7 +63,7 @@ section>.container>.row{
 .engineLink_block {
 	position: relative;
 	width: 25%;
-	min-width: 250px;
+	min-width: 320px;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -86,7 +73,7 @@ section>.container>.row{
 	background-image: url(../img/engine24-inactive.png);
 }
 .engineLink_block:nth-child(2) {
-	margin-left: 20%;
+	margin-left: 13%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -154,6 +141,11 @@ section>.container>.row{
 /* О ДВИГАТЕЛЕ / About engine */
 .aboutEngine{
 	width: 100%;
+	position: relative;
+}
+.aboutEngine>.container>.row {
+	padding-top: 85px;
+	padding-bottom: 60px;
 }
 .aboutEngine_wrap {
 	position: relative;
@@ -163,7 +155,6 @@ section>.container>.row{
 	background-position: center;
 	background-size: 100%;
 	background-image: url(../img/bcg-aboutEngine.png);
-	margin-top: 85px;
 	margin-bottom: 25px;
 	left: calc(50% - 385px);
 	display: -webkit-box;
@@ -270,18 +261,18 @@ section>.container>.row{
     right: 138px;
 }
 .aboutEngine_list>li#part5:before {
-	width: 210px;
-    -webkit-transform: rotateZ(-153deg);
-            transform: rotateZ(-153deg);
-    right: 133px;
-    bottom: 45px;
+	width: 220px;
+    -webkit-transform: rotateZ(-151deg);
+    transform: rotateZ(-151deg);
+    right: 130px;
+    bottom: 52px;
 }
 .aboutEngine_list>li#part6:before {
-	width: 308px;
-    -webkit-transform: rotateZ(-162deg);
-            transform: rotateZ(-162deg);
+	width: 319px;
+    -webkit-transform: rotateZ(-160deg);
+    transform: rotateZ(-160deg);
     right: 135px;
-    bottom: 45px;
+    bottom: 52px;
 }
 .aboutEngine_list>li#part1.hover:before {
 	display: block;
@@ -314,7 +305,7 @@ section>.container>.row{
 	border-radius: 50%;
 	border:3px solid #ed2010;
 	color: #ed2010;
-	line-height: 24px;
+	line-height: 30px;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -371,8 +362,10 @@ section>.container>.row{
 	background-size: 100%;
 	background-repeat:no-repeat;
 }
+.proud>.container>.row {
+	padding-top: 140px;
+}
 .proud_wrap {
-	margin-top: 140px;
 	margin-bottom:100px;
 	width: 870px;
 	position: relative;
@@ -393,6 +386,7 @@ section>.container>.row{
 	position: relative;
 	margin-left: 185px;
 	opacity: .3;
+	cursor: pointer;
 }
 .proud_block.transparent {
 	opacity: 0;
@@ -420,7 +414,7 @@ section>.container>.row{
 	height: 140px;
 	position: absolute;
 	left: -70px;
-	top:50px;
+	top:30px;
 }
 .proud_block>.award>img{
 	height: 100%;
@@ -429,7 +423,7 @@ section>.container>.row{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	height: 220px;
+	height: 180px;
 }
 .proud .slick-prev, .proud .slick-next {
 	left: 50%;
@@ -462,7 +456,6 @@ section>.container>.row{
 }
 .proud .slick-center.slick-current {
 	opacity: 1;
-	height: 220px;
 }
 .proud .slick-center.slick-current>.divider {
 	-webkit-filter:saturate(100%);

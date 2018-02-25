@@ -22,6 +22,15 @@ $(document).ready(function(){
   });
 
 
+var tab = window.location.hash; // получим #1
+if (tab = '#tab50') {
+  $('#tab24').removeClass('active');
+    $('#tab24_content').removeClass('active');
+    $('#tab50').addClass('active');
+    $('#tab50_content').addClass('active');
+}
+else{}
+
 });
 
 

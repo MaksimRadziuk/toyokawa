@@ -87,11 +87,12 @@ $(document).ready(function(){
     $('.proud_wrap').slick({
       vertical:true,
       centerMode: true,
-      slidesToShow: 3,
+      slidesToShow: 1,
       slidesToScroll:1,
+      initialSlide:1,
       arrows: true,
       infinite:false,
-      centerPadding:"0px",
+      centerPadding:"170px",
       draggable:true,
       verticalSwiping: true,
       focusOnSelect:true,
@@ -99,7 +100,24 @@ $(document).ready(function(){
       touchMove:true
     });
 
+jQuery(function(){
+    var key = 'clicked-tab' ;
+    jQuery('a.hp50').on('click', function(){        
+        localStorage.setItem(key, jQuery(this).data('tab'));
+    });
 
+    if (true) {   //добавляем условие "если на странице с табами"
+        //селектор для таба
+        $('#tab50_content').addClass('active');
+        $('#tab50').addClass('active');
+        $('#tab24').removeClass('active');
+        $('#tab24_content').removeClass('active');
+        
+        jQuery('a[href='+localStorage.getItem(key)+']').click();
+        localStorage.removeItem(key);
+       
+    }
+});
 
 
 });

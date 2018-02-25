@@ -24,7 +24,7 @@ header:before {
 .main h1 {
 	position: absolute;
 	top: 30px;
-	left: 0px;
+	left: -50px;
 	font-size: 22px;
 	font-weight: 400;
 	color: #fff;
@@ -50,15 +50,18 @@ header:before {
 	padding-bottom: 150px;
 }
 .catalog_wrap {
-	margin-top: 40px;
+	padding-top: 60px;
 	width: 100%;
 	text-align: center;
+	margin:0 auto;
 }
 .tabs_box {
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
 .tabs_box>.tab {
+	display: inline;
+	text-decoration: none;
 	font-size: 16px;
 	text-align: center;
 	padding: 10px 25px;
@@ -87,22 +90,27 @@ header:before {
 }
 .tabs_content>.tab_content>.card {
 	width: 100%;
-	height: 365px;
+	height: 390px;
 	margin-bottom: 30px;
 	border:none;
+	box-sizing: border-box;
+	visibility: hidden;
 }
 .card table {
 	width: 100%;
 	height: 100%;
-	background-color: #fff;
 	border:none;
 	border-radius: none;
+}
+.card table tbody {
+	border:none;
 }
 .card table th {
 	background-color: #ff2513;
 	font-size: 28px;
 	font-weight: 400;
-	height: 55px;
+	height: 53px;
+	border:1px solid #ff2513;
 }
 .card table td {
 	font-size: 17px;
@@ -110,6 +118,8 @@ header:before {
 	text-align: left;
 	padding-top: 10px;
 	padding-bottom: 5px;
+	background-color: #fff;
+	border:1px solid #fff;
 }
 .card table td.bottomBorder {
 	border-bottom: 1px solid #000;
@@ -129,6 +139,7 @@ header:before {
 .card table tr.narrow {
 	min-height: 35px;
 	height: 35px;
+	border-top:;
 }
 .card table tr td.thin {
 	width: 40px;

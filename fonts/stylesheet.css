@@ -173,10 +173,24 @@ font-weight: 500;
 font-style: normal;
 }
 
+
 @font-face {
     font-family: nikomoji;
     
 src: url('nicomoji-plus_1.11.ttf') format('truetype');
+    
+font-weight: normal;
+    
+font-style: normal;
+}
+
+@font-face {
+    font-family: PTsans;
+    
+src: url('PTS55F.ttf') format('truetype'),
+url('PTS56F.ttf') format('truetype'),
+url('PTS75F.ttf') format('truetype'),
+url('PTS76F.ttf') format('truetype');
     
 font-weight: normal;
     
