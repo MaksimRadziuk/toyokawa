@@ -5,160 +5,231 @@ $(document).ready(function(){
 
   new WOW().init();
 
-
-
-  var boxVis = $('.preview_block').is(':visible');
   $('.catalog_card.turbine').click(function(){
-  	
-  	if ('.preview_block:visible') {
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.turbine').is(':visible');
+  	if (el === true && curr === false) {
   		$('.preview_block').hide();
   		$('.preview_block.turbine').show();
   	}
-  	if ('.preview_block:hidden') {
-  		$('.preview_block.turbine').slideToggle();
-  	}
-
-  	
-  	else{}
-  	/*var elemVis =  $('.preview_block.turbine').is(':visible');
-  	if (elemVis = 1) {
-  		$('.preview_block').css('display', 'none');
-  	}
-  	if (boxVis = 0){
+  	if (el === false && curr === false) {
   		$('.preview_block.turbine').slideDown();
   	}
-  	
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.turbine').css('display', 'block');}*/
+  	if (el === true && curr === true) {
+  		$('.preview_block.turbine').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.starter').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.starter').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.starter').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.starter').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.starter').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.starter').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.generator').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.generator').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.generator').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.generator').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.generator').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.generator').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.piston').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.piston').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.piston').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.piston').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.piston').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.piston').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.cylinder').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.cylinder').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.cylinder').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.cylinder').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.cylinder').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.cylinder').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.valve').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.valve').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.valve').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.valve').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.valve').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.valve').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.crankshaft').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.crankshaft').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.crankshaft').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.crankshaft').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.crankshaft').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.crankshaft').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.cam-shaft').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.cam-shaft').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.cam-shaft').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.cam-shaft').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.cam-shaft').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.cam-shaft').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.piston-rod').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.piston-rod').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.piston-rod').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.piston-rod').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.piston-rod').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.piston-rod').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.water-pump').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.water-pump').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.water-pump').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.water-pump').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.water-pump').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.water-pump').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.oil-pump').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.oil-pump').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.oil-pump').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.oil-pump').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.oil-pump').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.oil-pump').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.oil-radiator').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.oil-radiator').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.oil-radiator').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.oil-radiator').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.oil-radiator').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.oil-radiator').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.injection').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.injection').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.injection').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.injection').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.injection').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.injection').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.cylinder-head').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.cylinder-head').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.cylinder-head').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.cylinder-head').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.cylinder-head').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.cylinder-head').slideUp();
+  	}
+  	else {}
   });
-
   $('.catalog_card.MPC').click(function(){
-  	if (boxVis = 0){
+  	var el = $('.preview_block').is(':visible');
+  	var curr = $('.preview_block.MPC').is(':visible');
+  	if (el === true && curr === false) {
+  		$('.preview_block').hide();
+  		$('.preview_block.MPC').show();
+  	}
+  	if (el === false && curr === false) {
   		$('.preview_block.MPC').slideDown();
   	}
-  	else {
-  		$('.preview_block').css('display', 'none');
-  		$('.preview_block.MPC').css('display', 'block');}
+  	if (el === true && curr === true) {
+  		$('.preview_block.MPC').slideUp();
+  	}
+  	else {}
   });
-
 
 });
 
