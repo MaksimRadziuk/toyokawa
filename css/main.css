@@ -7,13 +7,13 @@
 	width: 100%;
 	height: 470px;
 	position: relative;
-	padding-top: 40px;
+	padding-top: 0px;
 }
 .engineLink:before {
 	content: '';
 	display: block;
 	width: 100%;
-	height: 100px;
+	height: 140px;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -21,11 +21,12 @@
 	background-position: bottom center;
 	background-size: 100%;
 	background-image: url(../img/bcg-bottom-fire.png);
+	z-index: 1;
 }
 .main h2 {
 	position: absolute;
 	top: 30px;
-	left: 0px;
+	left: -70px;
 	font-size: 22px;
 	font-weight: 400;
 	color: #fff;
@@ -63,7 +64,7 @@
 .engineLink_block {
 	position: relative;
 	width: 25%;
-	min-width: 320px;
+	min-width: 340px;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -73,12 +74,13 @@
 	background-image: url(../img/engine24-inactive.png);
 }
 .engineLink_block:nth-child(2) {
-	margin-left: 13%;
+	margin-left: 10%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-image: url(../img/engine50-inactive.png);
 }
+
 .engineLink_block>a {
 	display: block;
 	width: 100%;
@@ -116,6 +118,11 @@
 	position: absolute;
 	bottom: 40px;
 	left: calc(50% - 117px);
+	pointer-events: none;
+}
+.engineLink_block:nth-child(1)>.title {
+	width: 200px;
+	left: calc(50% - 80px);
 }
 .engineLink_block>.title>h3 {
 	margin: 0;
@@ -305,7 +312,7 @@
 	border-radius: 50%;
 	border:3px solid #ed2010;
 	color: #ed2010;
-	line-height: 30px;
+	line-height: 32px;
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
@@ -356,11 +363,12 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100px;
+	height: 140px;
 	background-image: url(../img/bcg-top-fire.png);
 	background-position: top center;
 	background-size: 100%;
 	background-repeat:no-repeat;
+	z-index: 1;
 }
 .proud>.container>.row {
 	padding-top: 140px;
@@ -387,6 +395,10 @@
 	margin-left: 185px;
 	opacity: .3;
 	cursor: pointer;
+	outline: none;
+}
+.proud_block:hover, .proud_block:focus {
+	outline: none;
 }
 .proud_block.transparent {
 	opacity: 0;

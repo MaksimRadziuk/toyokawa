@@ -1,7 +1,11 @@
 * {
 	color:#fff;
-	-webkit-transition: all 1s linear;
-	transition: all 1s linear;
+	-webkit-transition: all .5s linear;
+	transition: all .5s linear;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 h1,h2,h3 {
 	font-family: 'KozGoPro-Regular';
@@ -33,7 +37,8 @@ body {
 	width: 1000px;
 	margin:0 auto;
 	padding:0 20px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 
@@ -106,6 +111,9 @@ header nav {
 	background-size: 100%;
 	z-index: 3;
 }
+nav .container {
+	padding: 0;
+}
 nav .row {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -120,7 +128,7 @@ nav .row {
 .logoWrap {
 	width: 200px;
 	height: 60px;
-	margin-left: 50px;
+	margin-left: -18px;
 }
 .logoWrap>a{
 	display: block;
@@ -145,7 +153,7 @@ nav .row {
 	padding-left: 0;
 	margin-bottom: 0;
 	margin-top: 0;
-	margin-left: 25px;
+	margin-left: 18px;
 }
 .navigation>li>a {
 	font-size: 14px;
@@ -153,13 +161,13 @@ nav .row {
 	letter-spacing: 1px;
 }
 .shield {
-	width: 90px;
+	width: 85px;
 	background-image: url(../img/header-5shield-icon.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 90px;
-	margin-left: 100px;
+	height: 85px;
+	margin-left: 130px;
 }
 /* =+===== END HEADER ======= */
 
@@ -182,7 +190,7 @@ section>.container>.row{
 .main h1 {
 	position: absolute;
 	top: 30px;
-	left: 0px;
+	left: -120px;
 	font-size: 22px;
 	font-weight: 400;
 	color: #fff;

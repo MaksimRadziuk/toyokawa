@@ -100,25 +100,6 @@ $(document).ready(function(){
       touchMove:true
     });
 
-jQuery(function(){
-    var key = 'clicked-tab' ;
-    jQuery('a.hp50').on('click', function(){        
-        localStorage.setItem(key, jQuery(this).data('tab'));
-    });
-
-    if (true) {   //добавляем условие "если на странице с табами"
-        //селектор для таба
-        $('#tab50_content').addClass('active');
-        $('#tab50').addClass('active');
-        $('#tab24').removeClass('active');
-        $('#tab24_content').removeClass('active');
-        
-        jQuery('a[href='+localStorage.getItem(key)+']').click();
-        localStorage.removeItem(key);
-       
-    }
-});
-
 
 });
 
