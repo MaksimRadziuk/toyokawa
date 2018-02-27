@@ -229,10 +229,11 @@ footer {
 }
 footer>.container {
 	position: relative;
+	padding: 0;
 	padding-top: 30px;
 	height: 100%;
+	width: 860px;
 }
-
 footer>.container:before {
 	content: '';
 	display: block;
