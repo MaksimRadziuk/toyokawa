@@ -137,7 +137,7 @@ nav .row {
 	background-image: url(../img/logo-toyokawa.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 80%;
 }
 .navigation {
 	display: -webkit-box;
@@ -160,12 +160,15 @@ nav .row {
 	font-weight: 200;
 	letter-spacing: 1px;
 }
+.navigation>li>a.active {
+	color: #ff2513;
+}
 .shield {
 	width: 85px;
 	background-image: url(../img/header-5shield-icon.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 95%;
 	height: 85px;
 	margin-left: 130px;
 }
@@ -217,7 +220,7 @@ section>.container>.row{
      /* =========== */
 footer {
 	width: 100%;
-	height: 270px;
+	height: 230px;
 	background-color: #131517;
 	-webkit-box-shadow: 0px 10px 150px 100px rgba(0,0,0,1);
 	box-shadow: 0px 10px 150px 100px rgba(0,0,0,1);
@@ -233,8 +236,8 @@ footer>.container {
 footer>.container:before {
 	content: '';
 	display: block;
-	width: 580px;
-	height: 300px;
+	width: 510px;
+	height: 260px;
 	position: absolute;
 	bottom: 0;
 	right: -110px;
@@ -269,11 +272,11 @@ footer td.secondCol.lower>div {
 	        justify-content: flex-start;
 }
 footer td.secondCol.lower>div>div {
-	font-size: 14px;
+	font-size: 10px;
 }
 footer td.secondCol.lower a {
 	text-decoration:none;
-	font-size: 14px;
+	font-size: 10px;
 }
 footer td.secondCol.lower a:hover {
 	color:#fff;
@@ -281,10 +284,10 @@ footer td.secondCol.lower a:hover {
 footer td.secondCol.limited p{
 	max-width: 369px;
 	margin: 0;
-	font-size: 14px;
+	font-size: 10px;
 }
 footer .footer_navigation {
-	padding-left: 50px;
+	padding-left: 60px;
 	list-style: none;
 	margin-bottom: 0;
 	margin-top: -15px;
@@ -296,7 +299,7 @@ footer .footer_navigation>li:last-child {
 	margin-bottom: 0;
 }
 footer .footer_navigation>li>a {
-	font-size: 12px;
+	font-size: 11px;
 }
 footer td .rightPart {
 	margin-left: 25px;
@@ -304,7 +307,11 @@ footer td .rightPart {
 footer td.leftCol {
 	border-right:1px solid #fff;
 	width: 150px;
-	height: 100%;
+	height: 170px;
+}
+.footer_logoWrap {
+	width: 115px;
+	margin: 10px auto;
 }
 .footer_logoWrap>img {
 	width: 100%;
