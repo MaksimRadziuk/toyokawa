@@ -36,12 +36,6 @@
 	-webkit-transition: all .2s linear;
 	transition: all .2s linear;
 }
-.tabs_box>.tab:hover {
-	color: #ff2513;
-}
-.tabs_box>.tab.active {
-	color: #ff2513;
-}
 .tabs_content {
 	background-color: transparent;
 	width: 100%;
@@ -170,9 +164,19 @@
 	background-image: url(../img/engine50-active.png);
 }
 .engineLink_block:hover>a#tab24 {
+	background-image: url(../img/engine24-active.png);
 	opacity: 1;
 }
 .engineLink_block:hover>a#tab50 {
+	background-image: url(../img/engine50-active.png);
+	opacity: 1;
+}
+.engineLink_block.active>a#tab24 {
+	background-image: url(../img/engine24-active.png);
+	opacity: 1;
+}
+.engineLink_block.active>a#tab50 {
+	background-image: url(../img/engine50-active.png);
 	opacity: 1;
 }
 .engineLink_block>.title {
@@ -217,5 +221,8 @@
 	transition: all 0.2s linear;
 }
 .engineLink_block:hover>.title>.icon {
+	background-image: url(../img/link-square-active.png);
+}
+.engineLink_block.active>.title>.icon {
 	background-image: url(../img/link-square-active.png);
 }
