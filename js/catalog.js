@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 
 
-/*ТАБУЛЯЦИЯ / TABS*/
+/*TABS*/
   $('#tab24').click(function(){
   	$('#tab50').removeClass('active');
   	$('#tab50_content').removeClass('active');
