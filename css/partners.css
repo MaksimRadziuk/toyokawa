@@ -77,6 +77,11 @@
 	transition:all .2s linear;
 	cursor: pointer;
 }
+.partners_block.hover {
+	-webkit-filter: saturate(100%);
+	        filter: saturate(100%);
+	opacity: 1;
+}
 .partners_block:hover {
 	-webkit-filter: saturate(100%);
 	        filter: saturate(100%);
