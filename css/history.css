@@ -111,6 +111,7 @@ body {
 }
 .history_tree>.date_block>.description {
 	font-size: 11px;
+	line-height: 14px;
 	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 20px;
