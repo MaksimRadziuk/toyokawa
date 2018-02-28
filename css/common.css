@@ -251,7 +251,8 @@ footer>.container:before {
 footer table {
 	width: 100%;
 	border:1px solid #fff;
-	max-height: 100%;
+	max-height: 175px;
+	height: 175px;
 }
 footer td.secondCol {
 	padding-left:30px;
@@ -292,10 +293,12 @@ footer .footer_navigation {
 	padding-left: 60px;
 	list-style: none;
 	margin-bottom: 0;
-	margin-top: -15px;
+	margin-top: 0px;
+	max-height: 143px;
 }
 footer .footer_navigation>li {
 	margin-bottom: 0px;
+	height: 20px;
 }
 footer .footer_navigation>li:last-child {
 	margin-bottom: 0;
@@ -313,7 +316,8 @@ footer td.leftCol {
 }
 .footer_logoWrap {
 	width: 115px;
-	margin: 10px auto;
+	margin: 0px auto;
+	margin-top: 10px;
 }
 .footer_logoWrap>img {
 	width: 100%;
