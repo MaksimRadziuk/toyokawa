@@ -5,6 +5,10 @@ $(document).ready(function(){
 
   new WOW().init();
 
+var videoExst = $('.banner').is('video');
+if (videoExst = true){
+  $('.bannerWrap').css({'height':'auto', 'maxHeight': '700px'});
+}
 
 
 /*TABS*/
