@@ -13,6 +13,7 @@ h1,h2,h3 {
 a {
 	color: #fff;
 	font-size: 15px;
+	line-height: 17px;
 	font-weight: 400;
 	font-family: 'KozGoPro-Regular';
 	text-decoration: none;
@@ -108,7 +109,7 @@ header nav {
 	background-image: url(../img/bcg-header.png);
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-size: 100%;
+	background-size: 100% 100%;
 	z-index: 3;
 }
 nav .container {
@@ -335,15 +336,6 @@ footer td.leftCol {
 	.header_title{
 		left: 12%;
 	}
-}
-@media all and (max-width: 1199px) {
-	.shield {
-		margin-left: 40px;
-	}
-
-}
-@media all and (max-width: 1050px) {
-
 }
 @media all and (max-width: 1024px) {
 	.header_title{

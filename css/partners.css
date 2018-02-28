@@ -1,6 +1,4 @@
-header:before {
-	display: none;
-}
+
 .bannerWrap {
 	width: 100%;
 	height: 475px;
@@ -153,17 +151,6 @@ header:before {
 }
 .partners_row.last>.partners_block {
 	background-image: none;
-}
-.partners_pic {
-	width: 98%;
-	height: 95px;
-	margin: 0 auto;
-	background-image: url(../img/partners-picture.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	margin-top: 70px;
-	margin-bottom: 30px;
 }
 #feedback h2 {
 	font-size: 15px;

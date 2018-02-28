@@ -2,7 +2,8 @@
      /* =========== */
 /* =+===== CONTENT ======= */
      /* =========== */
-/* ВЫБОР МОЩНОСТИ ДВИГАТЕЛЯ / Engine power choice */
+     
+/* Engine power choice */
 .engineLink {
 	width: 100%;
 	height: 470px;
@@ -108,9 +109,9 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-align: end;
-	    -ms-flex-align: end;
-	        align-items: flex-end;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
@@ -129,10 +130,14 @@
 	font-size: 28px;
 	font-weight: 400;
 	color:#fff;
+	word-wrap: normal;
+	line-height: 22px;
+	text-align: center;
 }
 .engineLink_block>.title>.icon {
 	display: block;
 	width: 45px;
+	min-width: 45px;
 	height: 37px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -145,7 +150,7 @@
 	background-image: url(../img/link-square-active.png);
 }
 
-/* О ДВИГАТЕЛЕ / About engine */
+/* About engine */
 .aboutEngine{
 	width: 100%;
 	position: relative;
@@ -351,7 +356,7 @@
 	color:#fff;
 }
 
-/* СЛАЙДЕР / Slider */
+/* Slider */
 .proud {
 	width: 100%;
 	position: relative;
