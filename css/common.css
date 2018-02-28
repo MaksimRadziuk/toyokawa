@@ -84,6 +84,10 @@ header:before {
 	height: 100%;
 	margin:0 auto;
 }
+.banner>video {
+	width: 100%;
+	height: auto;
+}
 .banner>img {
 	min-width: 1920px;
 	height:100%;
