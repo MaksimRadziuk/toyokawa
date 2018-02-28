@@ -180,19 +180,19 @@
 	        align-items: flex-start;
 	padding-top: 20px;
 }
-.aboutEngine_wrap article {
+.aboutEngine_wrap .article {
 	width: 180px;
 	padding-left: 20px;
 	padding-top: 20px;
 }
-.aboutEngine_wrap article>p{
+.aboutEngine_wrap .article>p{
 	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
 	margin: 0;
 	text-align: left;
 }
-.aboutEngine_wrap article>p:first-child {
+.aboutEngine_wrap .article>p:first-child {
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -424,7 +424,7 @@
 	-webkit-filter: saturate(0%);
 	        filter: saturate(0%);
 }
-.proud_block>article {
+.proud_block>.article {
 	font-size: 18px;
 }
 .proud_block>.award {
