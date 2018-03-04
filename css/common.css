@@ -12,8 +12,8 @@ h1,h2,h3 {
 }
 a {
 	color: #fff;
-	font-size: 15px;
-	line-height: 17px;
+	font-size: 0.938em;
+	line-height: 1.063em;
 	font-weight: 400;
 	font-family: 'KozGoPro-Regular';
 	text-decoration: none;
@@ -102,7 +102,7 @@ header:before {
 	position: absolute;
 	bottom: 170px;
 	left: 25%;
-	font-size: 28px;
+	font-size: 1.75em;
 }
 .header_title>span {
 	color: #e22313;
@@ -162,8 +162,11 @@ nav .row {
 	margin-top: 0;
 	margin-left: 18px;
 }
+.navigation>li {
+	margin-left: 25px;
+}
 .navigation>li>a {
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: 200;
 	letter-spacing: 1px;
 }
@@ -201,7 +204,7 @@ section>.container>.row{
 	position: absolute;
 	top: 30px;
 	left: -120px;
-	font-size: 22px;
+	font-size: 1.375em;
 	font-weight: 400;
 	color: #fff;
 	z-index: 6;
@@ -281,11 +284,11 @@ footer td.secondCol.lower>div {
 	        justify-content: flex-start;
 }
 footer td.secondCol.lower>div>div {
-	font-size: 10px;
+	font-size: 0.625em;
 }
 footer td.secondCol.lower a {
 	text-decoration:none;
-	font-size: 10px;
+	font-size: 0.625em;
 }
 footer td.secondCol.lower a:hover {
 	color:#fff;
@@ -293,7 +296,7 @@ footer td.secondCol.lower a:hover {
 footer td.secondCol.limited p{
 	max-width: 369px;
 	margin: 0;
-	font-size: 10px;
+	font-size: 0.625em;
 }
 footer .footer_navigation {
 	padding-left: 60px;
@@ -310,7 +313,7 @@ footer .footer_navigation>li:last-child {
 	margin-bottom: 0;
 }
 footer .footer_navigation>li>a {
-	font-size: 11px;
+	font-size: 0.688em;
 }
 footer td .rightPart {
 	margin-left: 25px;
@@ -340,6 +343,9 @@ footer td.leftCol {
 	}
 	footer>.container:before {
 		right: 0;
+	}
+	footer td.secondCol.limited p {
+		max-width: 257px;
 	}
 }
 @media all and (max-width: 1280px) {

@@ -61,7 +61,7 @@
 .img_block>.text_wrap {
 	padding: 10px 20px;
 	text-align: left;
-	font-size: 10px;
+	font-size: 0.625em;
 	visibility: hidden;
 }
 .map_wrap {
@@ -142,7 +142,7 @@
 	-webkit-box-pack: start;
 	    -ms-flex-pack: start;
 	        justify-content: flex-start;
-	font-size: 10px;
+	font-size: 0.625em;
 	height: 70px;
 	width: 265px;
 	text-align: left;
@@ -180,7 +180,7 @@
 	margin-top: 20px;
 }
 #feedback h2 {
-	font-size: 15px;
+	font-size: 0.938em;
 	font-weight: 400;
 	text-align: center;
 	margin-bottom: 20px;
@@ -202,7 +202,7 @@
 	width: 210px;
 	height: 25px;
 	border:1px solid #e1e1e1;
-	font-size: 15px;
+	font-size: 0.938em;
 	outline: none;
 	background-color: transparent;
 	margin-bottom: 20px;
@@ -252,7 +252,7 @@ button {
 	position: relative;
 	border:none;
 	background-color: #e22313;
-	font-size: 15px;
+	font-size: 0.938em;
 	width: 100px;
 	height: 25px;
 	left: calc(50% - 50px);
