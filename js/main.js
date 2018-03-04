@@ -97,7 +97,15 @@ $(document).ready(function(){
       verticalSwiping: true,
       focusOnSelect:true,
       respondTo:'slider',
-      touchMove:true
+      touchMove:true, 
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            centerPadding:"150px",
+          }
+        }
+      ]
     });
 
 

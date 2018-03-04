@@ -414,7 +414,6 @@
 	font-size: 8.571em;
 	height: 100%;
 	font-weight: 200;
-	padding-bottom: 20px;
 	box-sizing: border-box;
 }
 .proud_block>.divider {
@@ -545,7 +544,7 @@
 		height: 150px;
 	}
 	.proud_block>.award {
-		top: 20px;
+		top: 0px;
 	}
 	.proud .slick-prev, .proud .slick-next {
 		width: 50px;
@@ -558,6 +557,6 @@
 		bottom: -50px;
 	}
 	.proud_block>.year {
-		height: 120%;
+		height: auto;
 	}
 }
