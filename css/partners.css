@@ -164,6 +164,9 @@
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
+.feedback_wrap {
+	width: 100%;
+}
 .feedback_row {
 	width: 100%;
 	display: -webkit-box;
@@ -186,7 +189,6 @@
 	margin-bottom: 20px;
 	padding-left: 5px;
 	display: inline-block;
-	float: left;
 }
 .feedback_row>input:nth-child(1) {
 	margin-right: 20px;
