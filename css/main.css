@@ -561,6 +561,7 @@
 		bottom: -50px;
 	}
 	.proud_block>.year {
-		height: auto;
+		height: 150px;
+		line-height: 130px;
 	}
 }
