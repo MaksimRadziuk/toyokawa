@@ -43,7 +43,7 @@
 .tabs_content>.tab_content {
 	width: 865px;
 	position: relative;
-	left: calc(50% - 433px);
+	margin:0 auto;
 	display: none;
 }
 .tabs_content>.tab_content.active {
@@ -192,12 +192,12 @@
 	width: 235px;
 	position: absolute;
 	bottom: 40px;
-	left: calc(50% - 117px);
+	left: 0;
 	pointer-events: none;
 }
 .engineLink_block:nth-child(1)>.title {
 	width: 200px;
-	left: calc(50% - 80px);
+	left: 25px;
 }
 .engineLink_block>.title>h3 {
 	margin: 0;
