@@ -208,7 +208,7 @@
 .feedback_row>input:focus:-ms-input-placeholder      {color:transparent;}
 
 .feedback_row>textarea {
-	width: 100%;
+	width: 445px;
 	height: 80px;
 	font-size: 0.938em;
 	font-weight: 400;
