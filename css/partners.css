@@ -180,7 +180,7 @@
 	        justify-content: space-between;
 }
 .feedback_row>input {
-	width: 210px;
+	width: 200px;
 	height: 25px;
 	border:1px solid #e1e1e1;
 	font-size: 0.938em;
