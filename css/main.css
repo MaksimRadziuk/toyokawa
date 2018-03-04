@@ -118,12 +118,12 @@
 	width: 235px;
 	position: absolute;
 	bottom: 40px;
-	left: calc(50% - 117px);
+	left: 50px;
 	pointer-events: none;
 }
 .engineLink_block:nth-child(1)>.title {
 	width: 200px;
-	left: calc(50% - 80px);
+	left: 70px;
 }
 .engineLink_block>.title>h3 {
 	margin: 0;
@@ -556,5 +556,8 @@
 	}
 	.proud .slick-next {
 		bottom: -50px;
+	}
+	.proud_block>.year {
+		height: 120%;
 	}
 }
