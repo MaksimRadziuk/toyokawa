@@ -169,6 +169,7 @@
 }
 .feedback_row {
 	width: 100%;
+	clear: both;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -189,9 +190,11 @@
 	margin-bottom: 20px;
 	padding-left: 5px;
 	display: inline-block;
+	float:right;
 }
 .feedback_row>input:nth-child(1) {
 	margin-right: 15px;
+	float: left;
 }
 .feedback_row>input:hover, .feedback_row>input:focus {
 	outline: none;
