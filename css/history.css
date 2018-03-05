@@ -111,7 +111,6 @@ body {
 }
 .history_tree>.date_block>.description {
 	font-size: 0.688em;
-	line-height: 1.1em;
 	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 20px;
@@ -275,16 +274,20 @@ top: 1930px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	visibility: hidden;
+	display: inline-block;
+	margin-right: 60px;
 }
-.principal>article {
+.principal>.speech {
 	visibility: hidden;
+	display: inline-block;
+	width: 700px;
 }
-.principal>article>p {
+.principal>.speech>p {
 	margin: 0;
 	text-align: left;
 	font-size: 1.313em;
 }
-.principal>article>p.sign {
+.principal>.speech>p.sign {
 	text-align: right;
 	margin-top: 40px;
 }

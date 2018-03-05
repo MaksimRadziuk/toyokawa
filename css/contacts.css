@@ -197,16 +197,21 @@
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
+	font-size: 0;
 }
 .feedback_row>input {
 	width: 210px;
 	height: 25px;
 	border:1px solid #e1e1e1;
-	font-size: 0.938em;
+	/* font-size: 0.938em; */
 	outline: none;
 	background-color: transparent;
 	margin-bottom: 20px;
 	padding-left: 5px;
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 0;
+	box-shadow:none;
 }
 .feedback_row>input:hover, .feedback_row>input:focus {
 	outline: none;
@@ -223,16 +228,20 @@
 .feedback_row>input:focus:-ms-input-placeholder      {color:transparent;}
 
 .feedback_row>textarea {
-	width: 100%;
+	width: 445px;
 	height: 80px;
+	/* font-size: 0.938em; */
+	font-weight: 400;
+	font-family: "KozGoPro-Regular";
 	border:1px solid #e1e1e1;
+	border-radius: 0;
+	box-shadow:none;
 	outline: none;
 	background-color: transparent;
 	resize: none;
 	padding-left: 5px;
 	margin-bottom: 20px;
-	font-size: 15px;
-	font-family: "KozGoPro-Regular";
+	box-sizing: border-box;
 }
 .feedback_row>textarea:hover, .feedback_row>textarea:focus {
 	outline: none;
