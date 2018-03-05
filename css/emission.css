@@ -34,12 +34,15 @@
 	        justify-content: flex-start;
 	visibility: hidden;
 }
-.company_emission>article {
+.company_emission>div {
 	width: 500px;
 	font-size: 1em;
 	font-weight: 400;
 	margin-right: 150px;
 	visibility: hidden;
+	-ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 .company_emission>.img_wrap {
 	width: 310px;
@@ -105,11 +108,14 @@
 	width: 100%;
 	height: 100%;
 }
-.clearing>article {
+.clearing>div.textPart {
 	width: 100%;
 	-webkit-column-count:2;
 	        column-count:2;
 	-webkit-column-gap: 70px;
 	        column-gap: 70px;
 	visibility: hidden;
+	-ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
