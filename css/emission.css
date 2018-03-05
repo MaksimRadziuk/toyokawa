@@ -109,7 +109,8 @@
 	height: 100%;
 }
 .clearing>div.textPart {
-	width: 100%;
+	width: 95%;
+	margin-left: 2.5%;
 	-webkit-column-count:2;
 	        column-count:2;
 	-webkit-column-gap: 70px;
