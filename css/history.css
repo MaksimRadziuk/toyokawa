@@ -111,12 +111,13 @@ body {
 }
 .history_tree>.date_block>.description {
 	font-size: 0.688em;!important
-	/* width: 100%; */
+	width: 90%;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	visibility: hidden;
 	float: left;
 	line-height: 1.2;
+	-webkit-text-size-adjust: 100%;
 }
 .history_tree>.date_block>.img_wrap {
 	display: -webkit-box;
