@@ -261,6 +261,9 @@ top: 1930px;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
+	
+}
+.principal>* {
 	vertical-align: top;
 }
 .principal>.photo_wrap {
