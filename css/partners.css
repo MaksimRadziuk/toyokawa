@@ -193,7 +193,7 @@
 	display: inline-block;
 }
 .feedback_row>input:nth-child(1) {
-	margin-right: 20px;
+	margin-right: 15px;
 }
 .feedback_row>input:hover, .feedback_row>input:focus {
 	outline: none;
