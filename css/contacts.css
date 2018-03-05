@@ -151,6 +151,10 @@
 	visibility: hidden;
 	-webkit-transition: all .2s linear;
 	transition: all .2s linear;
+	margin-right: 60px;
+}
+.description_block:last-child {
+	margin-right: 0;
 }
 .description_block>.leftPart {
 	width: 120px;
