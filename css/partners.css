@@ -192,7 +192,8 @@
 	padding-left: 5px;
 	display: inline-block;
 	box-sizing: border-box;
-	border-radius: none;
+	border-radius: 0;
+	box-shadow:none;
 }
 .feedback_row>input:nth-child(1) {
 	margin-right: 25px;
@@ -218,7 +219,8 @@
 	font-weight: 400;
 	font-family: "KozGoPro-Regular";
 	border:1px solid #e1e1e1;
-	border-radius: none;
+	border-radius: 0;
+	box-shadow:none;
 	outline: none;
 	background-color: transparent;
 	resize: none;
