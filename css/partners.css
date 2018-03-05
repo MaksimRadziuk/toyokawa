@@ -185,12 +185,13 @@
 	width: 200px;
 	height: 25px;
 	border:1px solid #e1e1e1;
-	font-size: 0.938em;
+	/* font-size: 0.938em; */
 	outline: none;
 	background-color: transparent;
 	margin-bottom: 20px;
 	padding-left: 5px;
 	display: inline-block;
+	box-sizing: border-box;
 }
 .feedback_row>input:nth-child(1) {
 	margin-right: 45px;
