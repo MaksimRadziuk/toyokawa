@@ -116,6 +116,7 @@ body {
 	margin-bottom: 20px;
 	visibility: hidden;
 	float: left;
+	line-height: 1.2;
 }
 .history_tree>.date_block>.img_wrap {
 	display: -webkit-box;
