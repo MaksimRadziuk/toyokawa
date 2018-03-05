@@ -184,6 +184,9 @@ body {
 	left: -4px;
 	top: 780px;
 }
+.date_block#date1991 .description {
+	float: right;
+}
 .date_block#date1991>.img_wrap>img:nth-child(2), 
 .date_block#date1993>.img_wrap>img:nth-child(2),
 .date_block#date2013>.img_wrap>img:nth-child(2),
