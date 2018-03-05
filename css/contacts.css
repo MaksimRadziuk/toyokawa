@@ -213,6 +213,9 @@
 	border-radius: 0;
 	box-shadow:none;
 }
+.feedback_row>input:nth-child(1) {
+	margin-right: 25px;
+}
 .feedback_row>input:hover, .feedback_row>input:focus {
 	outline: none;
 	border:1px solid #fff;
@@ -264,6 +267,6 @@ button {
 	font-size: 0.938em;
 	width: 100px;
 	height: 25px;
-	left: calc(50% - 50px);
+	left: 172px;
 	cursor: pointer;
 }
