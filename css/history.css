@@ -117,7 +117,9 @@ body {
 	visibility: hidden;
 	float: left;
 	line-height: 1.2;
-	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 .history_tree>.date_block>.img_wrap {
 	display: -webkit-box;
