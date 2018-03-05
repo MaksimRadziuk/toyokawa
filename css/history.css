@@ -110,7 +110,7 @@ body {
 	visibility: hidden;
 }
 .history_tree>.date_block>.description {
-	font-size: 0.688em;
+	font-size: 0.688em;!important
 	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 20px;
@@ -132,8 +132,8 @@ body {
 	visibility: hidden;
 }
 .date_block#date1963{
-left: -4px;
-top: 15px;
+	left: -4px;
+	top: 15px;
 }
 .date_block#date1963>.img_wrap, .date_block#date1976>.img_wrap,
 .date_block#date1998>.img_wrap {
@@ -149,8 +149,8 @@ top: 15px;
 	margin: 0;
 }
 .date_block#date1971 {
-right: -3px;
-top: 65px;
+	right: -3px;
+	top: 65px;
 }
 .date_block#date1971>.img_wrap, .date_block#date1981>.img_wrap {
 	display: inline-block;
@@ -165,24 +165,24 @@ top: 65px;
 	margin: 0;
 }
 .date_block#date1976 {
-left: -4px;
-top: 250px;
+	left: -4px;
+	top: 250px;
 }
 .date_block#date1981 {
-right: -3px;
-top: 300px;
+	right: -3px;
+	top: 300px;
 }
 .date_block#date1987 {
-left: -4px;
-top: 500px;
+	left: -4px;
+	top: 500px;
 }
 .date_block#date1989 {
-right: -3px;
-top: 530px;
+	right: -3px;
+	top: 530px;
 }
 .date_block#date1991 {
-left: -4px;
-top: 780px;
+	left: -4px;
+	top: 780px;
 }
 .date_block#date1991>.img_wrap>img:nth-child(2), 
 .date_block#date1993>.img_wrap>img:nth-child(2),
@@ -194,23 +194,23 @@ top: 780px;
 	margin-bottom: -48px;
 }
 .date_block#date1993 {
-right: -3px;
-top: 800px;
+	right: -3px;
+	top: 800px;
 }
 .date_block#date1993>.img_wrap {
 	margin-bottom: -58px;
 }
 .date_block#date1998 {
-left: -4px;
-top: 1050px;
+	left: -4px;
+	top: 1050px;
 }
 .date_block#date2002 {
-right: -3px;
-top: 1060px;
+	right: -3px;
+	top: 1060px;
 }
 .date_block#date2005 {
-left: -4px;
-top: 1290px;
+	left: -4px;
+	top: 1290px;
 }
 .date_block#date2005>.img_wrap {
 	-webkit-box-align: center;
@@ -218,8 +218,8 @@ top: 1290px;
 	        align-items: center;
 }
 .date_block#date2011 {
-right: -3px;
-top: 1310px;
+	right: -3px;
+	top: 1310px;
 }
 .date_block#date2011>.img_wrap {
 	display: none;
@@ -228,26 +228,26 @@ top: 1310px;
 	margin-bottom: 0px;
 }
 .date_block#date2012 {
-left: -4px;
-top: 1570px;
+	left: -4px;
+	top: 1570px;
 }
 .date_block#date2013 {
-right: -3px;
-top: 1590px;
+	right: -3px;
+	top: 1590px;
 }
 .date_block#date2013>.img_wrap {
 	margin-bottom: -40px;
 }
 .date_block#date2014 {
-left: -4px;
-top: 1910px;
+	left: -4px;
+	top: 1910px;
 }
 .date_block#date2014>.img_wrap {
 	margin-bottom: -5px;
 }
 .date_block#date2015 {
-right: -3px;
-top: 1930px;
+	right: -3px;
+	top: 1930px;
 }
 
 
