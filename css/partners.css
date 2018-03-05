@@ -182,7 +182,7 @@
 	font-size: 0;
 }
 .feedback_row>input {
-	width: 200px;
+	width: 210px;
 	height: 25px;
 	border:1px solid #e1e1e1;
 	/* font-size: 0.938em; */
@@ -195,7 +195,7 @@
 	border-radius: none;
 }
 .feedback_row>input:nth-child(1) {
-	margin-right: 45px;
+	margin-right: 25px;
 }
 .feedback_row>input:hover, .feedback_row>input:focus {
 	outline: none;
