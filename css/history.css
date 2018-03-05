@@ -134,6 +134,12 @@ body {
 	width: 100%;
 	visibility: hidden;
 }
+.history_tree>.date_block>.img_wrap>* {
+	vertical-align: top;
+}
+.history_tree>.date_block>.img_wrap>img {
+	display: inline;
+}
 .date_block#date1963{
 	left: -4px;
 	top: 15px;
@@ -299,6 +305,9 @@ body {
 	margin: 0;
 	text-align: left;
 	font-size: 1.313em;
+	-ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 .principal>.speech>p.sign {
 	text-align: right;
