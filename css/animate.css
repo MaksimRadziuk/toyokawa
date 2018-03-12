@@ -1426,37 +1426,33 @@
   animation-name: fadeInLeft;
 }
 
-@-webkit-keyframes fadeInLeftBig {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-2000px, 0, 0);
-    transform: translate3d(-2000px, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+@-webkit-keyframes fadeInLeftBig{
+  from{
+    opacity:0;
+    -webkit-transform:translateX(-2000px);
+    transform:translateX(-2000px)
+    }
+  to{
+    opacity:1;
+    -webkit-transform:none;
+    transform:none
+    }
+}
+@keyframes fadeInLeftBig{
+  from{
+    opacity:0;
+    -webkit-transform:translateX(-2000px);
+    transform:translateX(-2000px)
+    }
+  to{
+    opacity:1;
+    -webkit-transform:none;
+    transform:none
   }
 }
-
-@keyframes fadeInLeftBig {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-2000px, 0, 0);
-    transform: translate3d(-2000px, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.fadeInLeftBig {
-  -webkit-animation-name: fadeInLeftBig;
-  animation-name: fadeInLeftBig;
+.fadeInLeftBig{
+  -webkit-animation-name:fadeInLeftBig;
+  animation-name:fadeInLeftBig
 }
 
 @-webkit-keyframes fadeInRight {

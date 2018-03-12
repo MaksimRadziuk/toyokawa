@@ -5,7 +5,7 @@ $(document).ready(function(){
   new WOW().init();
 
   $('#date1963').hover(function(){
-    $('.flash').animate({top:'-25px'},100);
+    $('.flash').animate({top:'-10px'},100);
   });
   $('#date1971').hover(function(){
     $('.flash').animate({top:'25px'},100);

@@ -473,7 +473,7 @@
 	background-image: url(../img/next-arrow.png);
 }
 .proud .slick-disabled {
-	opacity: .3;
+	opacity: 0;
 }
 .proud .slick-center.slick-current {
 	opacity: 1;

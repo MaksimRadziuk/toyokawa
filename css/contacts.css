@@ -8,7 +8,7 @@
 	background-size: auto cover;
 	position: relative;
 }
-.header_title {display: block;visibility: hidden;}
+.header_title {display: block;visibility: hidden;top: 35%;}
      /* =========== */
 /* =+===== CONTENT ======= */
      /* =========== */
@@ -152,6 +152,7 @@
 	-webkit-transition: all .2s linear;
 	transition: all .2s linear;
 	margin-right: 60px;
+	box-sizing:border-box;
 }
 .description_block:last-child {
 	margin-right: 0;
@@ -167,8 +168,13 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 	padding-right: 20px;
+	box-sizing:border-box;
+}
+.description_block.japan>.leftPart {
+	font-size: 0.9em;
 }
 .description_block>.rightPart {
+	width: 143px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -177,6 +183,7 @@
 	        align-items: center;
 	height: 100%; 
 	padding-left: 10px;
+	box-sizing:border-box;
 } 
 #feedback {
 	width: 445px;

@@ -8,7 +8,7 @@
 	background-size: auto cover;
 	position: relative;
 }
-.header_title {display: block;visibility: hidden;}
+.header_title {display: block;visibility: hidden;top: 35%;}
      /* =========== */
 /* =+===== CONTENT ======= */
      /* =========== */

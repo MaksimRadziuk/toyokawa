@@ -1,4 +1,5 @@
 
+
 .bannerWrap {
 	width: 100%;
 	height: 475px;
@@ -14,6 +15,7 @@
 	text-align: right;
 	left: auto;
 	right: 28%;
+	top: 35%;
 }
      /* =========== */
 /* =+===== CONTENT ======= */
