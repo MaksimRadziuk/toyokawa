@@ -153,10 +153,24 @@ nav .row {
 	font-size: 0.875em;
 	font-weight: 700;
 	letter-spacing: 1px;
-	text-decoration: underline;
+	position: relative;
+}
+.navigation>li>a>span {
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	border-bottom: 1px solid #fff;
+	transition:all .2s linear;
 }
 .navigation>li>a.active {
 	color: #ff2513;
+}
+.navigation>li>a.active>span {
+	border-color: #ff2513;
+}
+.navigation>li>a:hover>span {
+	border-color: #ff2513;
 }
 .shield {
 	width: 85px;
