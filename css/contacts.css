@@ -190,6 +190,13 @@
 	-webkit-transition: all .2s linear;
 	transition: all .2s linear;
 } 
+/* .description_block>.rightPart span {
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+}
+.description_block:hover>.rightPart span {
+	color: rgb(226, 35, 19);
+} */
 #feedback {
 	width: 445px;
 	margin: 0 auto;

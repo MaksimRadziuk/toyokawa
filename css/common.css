@@ -11,12 +11,12 @@ h1,h2,h3 {
 	font-family: 'KozGoPro-Regular', Tahoma;
 }
 a {
-	color: #fff;
 	font-weight: 400;
 	font-family: 'KozGoPro-Regular', Tahoma;
 	text-decoration: none;
 	-webkit-transition: all .2s linear;
 	transition: all .2s linear;
+	color: inherit; 
 }
 a:hover, a:focus {
 	color: #ff2513;
