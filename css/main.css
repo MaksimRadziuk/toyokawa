@@ -6,7 +6,7 @@
 /* Engine power choice */
 .engineLink {
 	width: 100%;
-	height: 470px;
+	height: 570px;
 	position: relative;
 	padding-top: 0px;
 }
@@ -61,6 +61,8 @@
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
+	box-sizing: border-box;
+	padding-bottom: 50px;
 }
 .engineLink_block {
 	position: relative;
@@ -117,7 +119,7 @@
 	        justify-content: space-between;
 	width: 235px;
 	position: absolute;
-	bottom: 40px;
+	bottom: 5px;
 	left: 50px;
 	pointer-events: none;
 }
@@ -410,7 +412,7 @@
 	opacity: 0;
 }
 .proud_block>.year {
-	font-family: 'KozGoPro-ExtraLight';
+	font-family: 'KozGoPro-ExtraLight', Tahoma;
 	font-size: 8em;
 	height: 100%;
 	font-weight: 200;
