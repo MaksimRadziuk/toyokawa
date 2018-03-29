@@ -39,3 +39,27 @@ $(document).ready(function(){
 });
 
 
+/*TRANSLATE DEBUG*/
+function fixedCharCodeAt (str, idx) {
+    var code = str.charCodeAt(idx);
+    if (0xD800 <= code && code <= 0xDBFF) { 
+        var hi = code;
+        var low = str.charCodeAt(idx+1);
+        return ((hi - 0xD800) * 0x400) + (low - 0xDC00) + 0x10000;
+    }
+    if (0xDC00 <= code && code <= 0xDFFF) { 
+        var hi = str.charCodeAt(idx-1);
+        var low = code;
+        return ((hi - 0xD800) * 0x400) + (low - 0xDC00) + 0x10000;
+    }
+    return code;
+}
+document.getElementById("p1").addEventListener('DOMSubtreeModified', function () {
+  mydiv=document.getElementById("p1");
+  c=fixedCharCodeAt(mydiv.textContent,0);
+  if (c<1280) {
+    document.body.style.fontFamily = "Tahoma";
+  } else {
+    document.body.style.fontFamily = "SimSun";
+  }
+}, false);  

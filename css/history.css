@@ -172,6 +172,10 @@ body {
 .date_block#date1976 {
 	left: -4px;
 	top: 250px;
+	filter:saturate(50%);
+}
+.date_block#date1976:hover {
+	filter:saturate(100%);
 }
 .date_block#date1981 {
 	right: -3px;
@@ -260,7 +264,7 @@ body {
 
 
 
-.principal {
+.founder {
 	width: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -273,10 +277,10 @@ body {
 	        justify-content: space-between;
 	
 }
-.principal>* {
+.founder>* {
 	vertical-align: top;
 }
-.principal>.photo_wrap {
+.founder>.photo_wrap {
 	width: 230px;
 	min-width: 230px;
 	max-width: 230px;
@@ -284,7 +288,7 @@ body {
 	border-radius: 50%;
 	overflow: hidden;
 	margin-right: 60px;
-	background-image: url(../img/principal.png);
+	background-image: url(../img/founder.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -292,12 +296,12 @@ body {
 	display: inline-block;
 	margin-right: 60px;
 }
-.principal>.speech {
+.founder>.speech {
 	visibility: hidden;
 	display: inline-block;
 	width: 650px;
 }
-.principal>.speech>p {
+.founder>.speech>p {
 	margin: 0;
 	text-align: left;
 	font-size: 1.313em;
@@ -305,7 +309,7 @@ body {
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-.principal>.speech>p.sign {
+.founder>.speech>p.sign {
 	text-align: right;
 	margin-top: 40px;
 	padding-right: 20px;

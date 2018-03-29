@@ -231,8 +231,14 @@ $(document).ready(function(){
   	else {}
   });
 
+
+
+
+/*IPHONE FOCUS FIX*/
   if (innerWidth <= 600) {
-    $('.catalog_card.turbine').hover(function(){
+
+    $('.catalog_card.turbine').hover(
+      function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.turbine').is(':visible');
       if (el === true && curr === false) {
@@ -246,7 +252,9 @@ $(document).ready(function(){
         $('.preview_block.turbine').slideUp();
       }
       else {}
-    });
+      },
+      function(){}
+    );
     $('.catalog_card.starter').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.starter').is(':visible');
@@ -261,7 +269,7 @@ $(document).ready(function(){
         $('.preview_block.starter').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.generator').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.generator').is(':visible');
@@ -276,7 +284,7 @@ $(document).ready(function(){
         $('.preview_block.generator').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.piston').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.piston').is(':visible');
@@ -291,7 +299,7 @@ $(document).ready(function(){
         $('.preview_block.piston').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.cylinder').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.cylinder').is(':visible');
@@ -306,7 +314,7 @@ $(document).ready(function(){
         $('.preview_block.cylinder').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.valve').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.valve').is(':visible');
@@ -321,7 +329,7 @@ $(document).ready(function(){
         $('.preview_block.valve').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.crankshaft').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.crankshaft').is(':visible');
@@ -336,7 +344,7 @@ $(document).ready(function(){
         $('.preview_block.crankshaft').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.cam-shaft').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.cam-shaft').is(':visible');
@@ -351,7 +359,7 @@ $(document).ready(function(){
         $('.preview_block.cam-shaft').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.piston-rod').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.piston-rod').is(':visible');
@@ -366,7 +374,7 @@ $(document).ready(function(){
         $('.preview_block.piston-rod').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.water-pump').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.water-pump').is(':visible');
@@ -381,7 +389,7 @@ $(document).ready(function(){
         $('.preview_block.water-pump').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.oil-pump').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.oil-pump').is(':visible');
@@ -396,7 +404,7 @@ $(document).ready(function(){
         $('.preview_block.oil-pump').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.oil-radiator').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.oil-radiator').is(':visible');
@@ -411,7 +419,7 @@ $(document).ready(function(){
         $('.preview_block.oil-radiator').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.injection').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.injection').is(':visible');
@@ -426,7 +434,7 @@ $(document).ready(function(){
         $('.preview_block.injection').slideUp();
       }
       else {}
-    });
+    },function(){});
     $('.catalog_card.cylinder-head').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.cylinder-head').is(':visible');
@@ -441,7 +449,8 @@ $(document).ready(function(){
         $('.preview_block.cylinder-head').slideUp();
       }
       else {}
-    });
+    },function(){});
+
     $('.catalog_card.MPC').hover(function(){
       var el = $('.preview_block').is(':visible');
       var curr = $('.preview_block.MPC').is(':visible');
@@ -456,7 +465,7 @@ $(document).ready(function(){
         $('.preview_block.MPC').slideUp();
       }
       else {}
-    });
+    },function(){});
   }
   else{}
 

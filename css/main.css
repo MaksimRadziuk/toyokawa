@@ -194,6 +194,9 @@
 	margin: 0;
 	text-align: left;
 }
+.aboutEngine_wrap .article>p>font>font {
+	font-size: 0.8em;
+}
 .aboutEngine_wrap .article>p:first-child {
 	font-weight: 700;
 	margin-bottom: 10px;
@@ -232,6 +235,9 @@
 	transition: none;
 	margin-bottom: 10px;
 }
+.aboutEngine_list>li>font>font{
+	font-size: 0.86em;
+}
 .aboutEngine_list>li:before {
 	content: '';
 	display: block;
@@ -268,6 +274,7 @@
     bottom: 43px;
     right: 136px;
 }
+
 .aboutEngine_list>li#part4:before {
 	width: 230px;
     -webkit-transform: rotateZ(-162deg);
@@ -288,6 +295,9 @@
     transform: rotateZ(-160deg);
     right: 135px;
     bottom: 52px;
+}
+.aboutEngine_list>li#part3>fon>font{
+	line-height: 0.5em;
 }
 .aboutEngine_list>li#part1.hover:before {
 	display: block;
@@ -320,7 +330,7 @@
 	border-radius: 50%;
 	border:3px solid #ed2010;
 	color: #ed2010;
-	line-height: 2em;
+	line-height: 30px;
 	font-size: 1em;
 	font-weight: 700;
 	text-align: center;
@@ -329,6 +339,15 @@
 	cursor: pointer;
 	-webkit-transition: none;
 	transition: none;
+}
+.aboutEngine_wrap .point>font>font{
+	color: #ed2010;
+	line-height: 30px;
+	transition: none;
+}
+.aboutEngine_wrap .point:hover>font>font {
+	background-color: #dd161c;
+	color:#fff;
 }
 .aboutEngine_wrap #point1 {
 	top: 115px;
@@ -413,7 +432,7 @@
 }
 .proud_block>.year {
 	font-family: 'KozGoPro-ExtraLight', Tahoma;
-	font-size: 8em;
+	font-size: 7em;
 	height: 100%;
 	font-weight: 200;
 	-webkit-box-sizing: border-box;
@@ -437,7 +456,7 @@
 	height: 140px;
 	position: absolute;
 	left: -70px;
-	top:30px;
+	top:20px;
 }
 .proud_block>.award>img{
 	height: 100%;
@@ -516,6 +535,11 @@
 	}
 	.proud_block>.year {
 		font-size: 6.111em;
+	}
+}
+@media all and (max-width: 1440px) {
+	.proud_block>.award {
+		top:00px;
 	}
 }
 @media all and (max-width: 1360px) {
